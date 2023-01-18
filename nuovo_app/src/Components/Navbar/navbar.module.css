@@ -1,0 +1,86 @@
+/* NavBanner section */
+.navBanner{
+    border-top: 1px solid gray;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.92);
+    gap: 15rem;
+}
+
+.navBanner>div{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.15rem;
+}
+.navBanner>div>:nth-child(2){
+    align-items: center;
+    margin-left: 0.4rem;
+}
+.navBanner>:nth-child(2){
+    justify-content: space-between;
+    margin-right: -16rem;
+}
+
+
+
+/* Navbar section */
+
+.nav{
+    border: 1px solid rgb(196, 194, 194);
+    height:90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nav>.logo{
+    width:20%;
+    align-items: center;    
+}
+
+.nav>.logo>h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:-apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    margin-bottom: 6px;
+    background: linear-gradient(to top right, rgb(234, 54, 165), rgb(235, 21, 167), rgb(255, 55, 0),rgb(255, 30, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.nav>.search{
+    display: flex;
+    background-color: #e5e5e5;
+    /* border: 1px solid green;  */
+    width:50%;
+    height: 2.6rem;
+   align-items: center;
+   border-radius: 2.5rem;
+}
+ 
+.nav>.search>:nth-child(1){
+   margin-top: 5px;
+   margin-left: 15px;
+} 
+
+.nav>.lac{
+    display: flex;
+    height:3rem;
+    width:23%;
+    align-items: center;
+    justify-content: space-around;
+}
+ .nav>.lac>:nth-child(1){
+    margin-left: 45%;
+ }
+ /* 
+ .nav>.lac>:nth-child(2){
+    margin-right: 8%;
+ }  */
