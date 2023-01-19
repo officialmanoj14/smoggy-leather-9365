@@ -7,6 +7,7 @@ import { IoMdCart } from "react-icons/io";
 // import NavBanner from '../NavBanner';
 import { AiOutlineRight } from 'react-icons/ai';
 import { CloseButton, Text } from '@chakra-ui/react';
+import SubNav from './SubNav';
 
 
 const Navbar = () => {
@@ -34,6 +35,7 @@ const Navbar = () => {
           <IoMdCart size={'2.5rem'} />
          </div>
       </div>
+      <SubNav/>
     </>
   )
 }
