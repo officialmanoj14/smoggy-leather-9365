@@ -50,6 +50,7 @@
     font-weight: bold;
     font-family:-apple-system, "Helvetica Neue", sans-serif, "Mier Book";
     margin-bottom: 6px;
+    background-clip: text;
     background: linear-gradient(to top right, rgb(234, 54, 165), rgb(235, 21, 167), rgb(255, 55, 0),rgb(255, 30, 0));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
