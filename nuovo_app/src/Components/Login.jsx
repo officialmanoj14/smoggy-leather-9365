@@ -10,8 +10,11 @@ import {
     Button,
     useColorModeValue
 } from "@chakra-ui/react";
+import { useNavigate } from 'react-router-dom';
 
 export default function Login() {
+    const navigate = useNavigate();
+
     return (
         <>
             <Flex>
@@ -70,6 +73,7 @@ export default function Login() {
                                     border={'1px solid red'}
                                     borderRadius={0} borderColor='black'
                                     fontSize={'1rem'}
+                                    onClick={() => navigate("/signup")}
                                 >
                                     CREATE AN ACCOUNT
                                 </Button>
