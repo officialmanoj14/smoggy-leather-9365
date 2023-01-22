@@ -21,6 +21,7 @@ export const Products = ({products}) => {
             md: '8',
             lg: '12',
             }}
+            
         >
             <ProductGrid>
             {products.map((data) => (

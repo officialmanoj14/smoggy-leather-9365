@@ -8,12 +8,17 @@ import {
     Stack,
     Link,
     Button,
-    useColorModeValue
+    useColorModeValue,
+    
 } from "@chakra-ui/react";
 import { useNavigate } from 'react-router-dom';
 
 export default function Login() {
+    
     const navigate = useNavigate();
+    const handleSignUp = () => {
+        navigate('/signup');    
+    }
 
     return (
         <>
@@ -27,11 +32,11 @@ export default function Login() {
                             <form>
                                 <FormControl id="email">
                                     <FormLabel>Email address</FormLabel>
-                                    <Input type="email" borderRadius={0} borderColor='black' />
+                                    <Input type="email" borderRadius={0} borderColor='black' placeholder="Enter email"/>
                                 </FormControl>
                                 <FormControl id="password" pt='1rem'>
                                     <FormLabel>Password</FormLabel>
-                                    <Input type="password" borderRadius={0} borderColor='black' />
+                                    <Input type="password" borderRadius={0} borderColor='black' placeholder="Enter password"/>
                                 </FormControl>
                                 <Stack>
 
@@ -46,7 +51,7 @@ export default function Login() {
                                         marginTop={'1.90rem'}
                                         border={'1px solid red'}
                                         borderRadius={0} borderColor='black'
-
+                                        onClick={() => alert(' Successfully Login')}
                                     >
                                         SIGN IN
                                     </Button>
@@ -73,7 +78,8 @@ export default function Login() {
                                     border={'1px solid red'}
                                     borderRadius={0} borderColor='black'
                                     fontSize={'1rem'}
-                                    onClick={() => navigate("/signup")}
+                                    onClick={handleSignUp}
+                                    
                                 >
                                     CREATE AN ACCOUNT
                                 </Button>

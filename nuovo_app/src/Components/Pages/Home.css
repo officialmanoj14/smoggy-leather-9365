@@ -1,0 +1,85 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.first_section{
+    margin-top: 8px;
+}
+.first_section>div>button{
+    position: absolute;
+    top:26%;
+    background-color: white;
+    margin-left: -5%;
+    color:rgb(17, 36, 17);
+    width: 150px;
+    height:40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.first_section>div>button:hover, .second_section>div:nth-child(2)>div>div>div>div>button:hover{
+    background-color: rgb(2, 9, 2);
+    color:white;
+    border-width: 2px;
+}
+/* first section end */
+
+.second_section>div:nth-child(2)>div>div:nth-child(1){
+    /* border:1px solid blue; */
+    display:flex;
+    max-width:100%;
+    justify-content:space-between;
+    margin-top: 35px;
+}
+
+.second_section>div:nth-child(2)>div>div>div>div>h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(2, 9, 2);
+}
+
+.second_section>div:nth-child(2)>div>div>div>div>button{
+    border: 1px solid rgb(17, 36, 17);
+    width: 150px;
+    height:40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}   
+
+.second_section>div:nth-child(2)>div>div>div>div>button:hover{
+    border: 2px solid rgb(2, 79, 2);
+}
+
+.third_section{
+    /* border:1px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.third_section>div{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.third_section>div>div>h2{
+    font-size: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color:rgb(17, 36, 17);
+}
+
+.fourth_section{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+.fourth_section>img{
+    align-items: center;
+    margin-left: 28px;
+}
+
+
