@@ -63,7 +63,7 @@ export const ProductCard = (props) => {
         </HStack>
       </Stack>
       <Stack align="center">
-        <Button colorScheme="blue" width="full">
+        <Button colorScheme="blue" width="full" onClick={() => alert('Successfully added')}>
           Add to cart
         </Button>
         <Link

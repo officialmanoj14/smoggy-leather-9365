@@ -2,7 +2,6 @@ import { Routes, Route } from "react-router-dom";
 import Home from "../Pages/Home";
 import FishingPage from "../Pages/FishingPage";
 import CartPage from "../Pages/CartPage";
-import Login from "../Login";
 import SignUp from "../SignUp";
 import Payment from "../Pages/Payment";
 import ProductSinglePage from "../Pages/ProductSinglePage";
@@ -10,6 +9,7 @@ import Checkout from "../Pages/Checkout";
 import ClothingPage from "../Pages/ClothingPage";
 import RidePage from "../Pages/RidePage";
 import FootwearPage from "../Pages/FootwearPage";
+import LoginDrawer from "../LoginDrawer";
 
 
 function AllRoutes() {
@@ -21,7 +21,7 @@ function AllRoutes() {
 
             <Route path="/cart" element={<CartPage/>} />
 
-            <Route path="/login" element={<Login/>} />
+            <Route path="/login" element={<LoginDrawer/>} />
 
             <Route path="/signup" element={<SignUp/>} />
 

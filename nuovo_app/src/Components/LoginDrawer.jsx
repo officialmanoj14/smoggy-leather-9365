@@ -41,7 +41,7 @@ function LoginDrawer() {
 
           <DrawerBody>
             <Stack spacing="30px">
-              <Login />
+              <Login onClose={onClose} isOpen={isOpen} onOpen={onOpen} initialFocusRef={firstField}/>
             </Stack>
           </DrawerBody>
         </DrawerContent>

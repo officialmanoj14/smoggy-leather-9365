@@ -1,5 +1,5 @@
 import React,{useState, useEffect} from 'react'
-import { Products } from "./Products";
+import { Products } from '../Products';
 import axios from 'axios';
 
 const FootwearPage = () => {
@@ -18,7 +18,7 @@ const FootwearPage = () => {
     console.log(products);
   return (
     <div>
-       <h1>Footwear Page</h1>
+       <h1 style={{fontSize:'30px', fontWeight:'bold', marginTop:'1px'}}>Footwear Page</h1>
        <Products products={products}/>
     </div>
   )

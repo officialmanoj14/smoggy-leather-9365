@@ -1,5 +1,5 @@
 import React,{useState, useEffect} from 'react'
-import { Products } from "./Products";
+import { Products } from "../Products";
 import axios from 'axios';
 
 const RidePage = () => {
@@ -8,6 +8,7 @@ const RidePage = () => {
     useEffect(() => {
       axios.get(`https://calm-red-hen-hat.cyclic.app/api/ride`)
       .then((res) => {
+          console.log(res);
           setProducts(res.data);
       })
       .catch((err) => {
