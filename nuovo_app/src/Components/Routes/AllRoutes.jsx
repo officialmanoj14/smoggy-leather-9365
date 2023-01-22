@@ -17,9 +17,9 @@ function AllRoutes() {
         <Routes>
             <Route path="/" element={<Home/>} />
 
-            <Route path="/fishingpage" element={<FishingPage/>} />
+            <Route path="/fishing" element={<FishingPage/>} />
 
-            <Route path="/cartpage" element={<CartPage/>} />
+            <Route path="/cart" element={<CartPage/>} />
 
             <Route path="/login" element={<Login/>} />
 
@@ -31,11 +31,11 @@ function AllRoutes() {
 
             <Route path="/checkout" element={<Checkout/>} />
 
-            <Route path="/clothingpage" element={<ClothingPage/>} />
+            <Route path="/clothing" element={<ClothingPage/>} />
 
-            <Route path="/ridepage" element={<RidePage/>} />
+            <Route path="/ride" element={<RidePage/>} />
 
-            <Route path="/footwearpage" element={<FootwearPage/>} />
+            <Route path="/footwear" element={<FootwearPage/>} />
 
         </Routes>
     )

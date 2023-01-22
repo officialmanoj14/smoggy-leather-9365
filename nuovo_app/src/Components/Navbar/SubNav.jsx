@@ -2,13 +2,10 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const links = [
-    { path:"/clothingpage", title:"Clothing"},
-    { path:"/fishingpage", title:"Fishing"},
-    { path:"/ridepage", title:"Ride"},
-    { path:"/footwearpage", title:"Footwear"},
-    // { title:"Boating"},
-    // { title:"Shooting"},
-    // { title:"Hunting"}
+    { path:"/clothing", title:"Clothing"},
+    { path:"/fishing", title:"Fishing"},
+    { path:"/ride", title:"Ride"},
+    { path:"/footwear", title:"Footwear"},
 ];
 
 const SubNav = () => {
