@@ -6,7 +6,7 @@ const ClothingPage = () => {
   const[products, setProducts] = useState([]);
 
   useEffect(() => {
-    axios.get(`http://localhost:3001/clothing`)
+    axios.get(`https://calm-red-hen-hat.cyclic.app/api/clothing`)
     .then((res) => {
         setProducts(res.data);
     })

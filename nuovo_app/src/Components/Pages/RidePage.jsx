@@ -6,7 +6,7 @@ const RidePage = () => {
     const[products, setProducts] = useState([]);
 
     useEffect(() => {
-      axios.get(`http://localhost:3001/ride`)
+      axios.get(`https://calm-red-hen-hat.cyclic.app/api/ride`)
       .then((res) => {
           setProducts(res.data);
       })
